@@ -19,12 +19,11 @@ import java.awt.*;
 //@Route("application")
 public class Application extends SpringBootServletInitializer {
 
-    public static void main(String[] args)
-    {
-       // LoginView caller=new LoginView();
+    public static void main(String[] args) {
+        // LoginView caller=new LoginView();
 
-       // Creat_account caller=new Creat_account();
-      //  caller.first_dialogue();
+        // Creat_account caller=new Creat_account();
+        //  caller.first_dialogue();
         LaunchUtil.launchBrowserInDevelopmentMode(SpringApplication.run(Application.class, args));
 //        UI.getCurrent().navigate(LoginView.class);
 
